@@ -12,7 +12,7 @@ const StoryReel = () => {
       <Story
         profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/elon%20musk.png"
         title="Elon"
-        image="https://github.com/SoumyaSagnik/Facebook-Clone/blob/main/images/emb.png"
+        image="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/emb.png"
       />
       <Story
         profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/ssk.png"
