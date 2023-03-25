@@ -1,3 +1,33 @@
+# Facebook Clone
+
+<a href="https://facebook-clone-93810.web.app/">Visit</a>
+
+Tech Stack: `React` `Context API` `Firebase 9` `Material UI`
+<br>
+Features: `Real Time DB` `Google Authentication` `Mobile Responsive` `Add Posts with images`
+
+---
+
+# Description
+
+## Login Screen
+
+<p align="center"><img src="./images/ss1.png" /></p>
+
+## Google Authentication
+
+<p align="center"><img src="./images/ss2.png" /></p>
+
+## Main Page
+
+<p align="center"><img src="./images/ss3.png" /></p>
+
+## Mobile Responsive
+
+<p align="center"><img src="./images/ss4.png" /></p>
+
+---
+
 ## Dependencies
 
 - npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
@@ -26,12 +56,10 @@
 
 - firebase login
 
-- firebase init
+- firebase init hosting
 
-- Choose Hosting and then select your project
-
-- public directory - build
+- public directory - build/ dist (CRA/ Vite)
 
 - npm run build
 
-- firebase deploy
+- firebase deploy --only hosting
