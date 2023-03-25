@@ -23,3 +23,15 @@
 ## Deploy
 
 - npm install -g firebase-tools
+
+- firebase login
+
+- firebase init
+
+- Choose Hosting and then select your project
+
+- public directory - build
+
+- npm run build
+
+- firebase deploy

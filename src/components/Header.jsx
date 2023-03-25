@@ -20,7 +20,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__left">
-        <img src="../../images/facebook-logo.png" alt="facebook" />
+        <img
+          src="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/facebook-logo.png"
+          alt="facebook"
+        />
         <div className="header__input">
           <SearchIcon />
           <input type="text" placeholder="Search" />

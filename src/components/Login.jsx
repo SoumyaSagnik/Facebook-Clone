@@ -20,7 +20,10 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login__logo">
-        <img src="../../images/facebook-logo.png" alt="Facebook" />
+        <img
+          src="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/facebook-logo.png"
+          alt="Facebook"
+        />
       </div>
       <h1>facebook</h1>
       <Button type="submit" onClick={signIn}>

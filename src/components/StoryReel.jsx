@@ -5,29 +5,29 @@ const StoryReel = () => {
   return (
     <div className="storyReel">
       <Story
-        profileSrc="../../images/ashneer.png"
+        profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/ashneer.png"
         title="Ashneer"
-        image="../../images/ab.png"
+        image="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/ab.png"
       />
       <Story
-        profileSrc="../../images/elon musk.png"
+        profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/elon%20musk.png"
         title="Elon"
-        image="../../images/emb.png"
+        image="https://github.com/SoumyaSagnik/Facebook-Clone/blob/main/images/emb.png"
       />
       <Story
-        profileSrc="../../images/ssk.png"
+        profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/ssk.png"
         title="SSK"
-        image="../../images/sb.png"
+        image="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/sb.png"
       />
       <Story
-        profileSrc="../../images/mark zuckerburg.png"
+        profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/mark%20zuckerburg.png"
         title="Mark"
-        image="../../images/mzb.png"
+        image="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/mzb.png"
       />
       <Story
-        profileSrc="../../images/Jeff Bezos.png"
+        profileSrc="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/Jeff%20Bezos.png"
         title="Jeff"
-        image="../../images/jbb.png"
+        image="https://raw.githubusercontent.com/SoumyaSagnik/Facebook-Clone/main/images/jbb.png"
       />
     </div>
   );
