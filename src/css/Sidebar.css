@@ -1,0 +1,10 @@
+.sidebar {
+    padding: 1.5rem 0.625rem;
+    flex: 0.33;
+}
+
+@media (max-width: 1500px) {
+    .sidebar {
+        display: none;
+    }
+}

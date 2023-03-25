@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    padding: 1rem 1.25rem;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 .25rem .5rem -.5rem rgba(0, 0, 0, .75);
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 0.625rem;
+    margin-left: 0.625rem;
+    border-radius: 62.438rem;
+}
+
+.header__input>input {
+    border: none;
+    background: transparent;
+    outline-width: 0;
+}
+
+.header__left>img {
+    height: 2.5rem;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__option {
+    display: flex;
+    align-items: center;
+    padding: 0 1.875rem;
+    cursor: pointer;
+}
+
+.header__option--active {
+    border-bottom: .25rem solid #2e81f4;
+}
+
+.header__option.header__option--active>.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.header__option:hover {
+    background-color: #eff2f5;
+    border-radius: 0.625rem;
+    border-bottom: none;
+}
+
+.header__option>.MuiSvgIcon-root {
+    color: gray;
+}
+
+.header__option:hover>.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__info>h4 {
+    margin-left: .625rem;
+}
+
+.header__right {
+    display: flex;
+}
+
+@media (max-width: 1100px) {
+    .header__right__icons {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__input {
+        display: none;
+    }
+
+    .header__option {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .header__option {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__option {
+        scale: 0.9;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__option {
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .header__option {
+        scale: 0.8;
+        padding: 0 0.3rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .header__option {
+        scale: 0.7;
+        padding: 0 0.1rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .header__left,
+    .header__right {
+        scale: .8;
+    }
+}

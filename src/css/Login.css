@@ -1,0 +1,42 @@
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: .1rem solid #2e81f4;
+    transition: background-color .3s;
+}
+
+.login:hover {
+    background-color: #faf5ef;
+}
+
+.login__logo>img {
+    width: 11rem;
+    margin-bottom: 5vmin;
+    object-fit: contain;
+}
+
+.login>h1 {
+    color: #2e81f4;
+    margin-bottom: 12.5vmin;
+    font-size: 2.5rem;
+}
+
+.login>button {
+    width: 18.75rem;
+    max-width: 90%;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 600;
+}
+
+.login>button:hover {
+    background-color: hsl(215, 90%, 60%);
+}
