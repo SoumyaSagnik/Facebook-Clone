@@ -6,6 +6,7 @@
     border-radius: 1rem;
     box-shadow: 0 .25rem .5rem -.5rem rgba(0, 0, 0, .75);
     width: 100%;
+    max-width: 40rem;
 }
 
 .messageSender__top {
@@ -82,7 +83,8 @@
 
 @media (max-width: 700px) {
     .messageSender {
-        width: 90%;
+        width: 95%;
+        max-width: 95vw;
     }
 
     .messageSender__option {
